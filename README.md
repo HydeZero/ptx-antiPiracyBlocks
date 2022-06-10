@@ -1,33 +1,7 @@
- 
+**Hi there!** Welcome to the Anti Piracy Blocks Extension! Here is is a document describing the blocks.
 
+makeCheck - Makes a check. Edit what is in the check in antiPiracyBlocks/main.ts, line 3.
 
-> Open this page at [https://hydezero.github.io/ptx-antipiracyblocks/](https://hydezero.github.io/ptx-antipiracyblocks/)
+runCheck - Runs the check. If check is *false*, makes the screen constantly change colours for 10 seconds, then shows a question asking, "Did you Pirate?" with the answers "Yes" and "No". If the user says "Yes", the game will acknowlege that you are being honest and then continues on with the process. If the user says "No", it will say "We know you are lying." After the question, it will pop up with "Piracy is a serious crime. It can result in 10 years in prison. Buy the real game!" and then, game over! It will go to black forever.
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/hydezero/ptx-antipiracyblocks** and import
-
-## Edit this project ![Build status badge](https://github.com/hydezero/ptx-antipiracyblocks/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/hydezero/ptx-antipiracyblocks** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/hydezero/ptx-antipiracyblocks/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/arcade
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+deleteCheck - Deletes the check. Useful when it is 
